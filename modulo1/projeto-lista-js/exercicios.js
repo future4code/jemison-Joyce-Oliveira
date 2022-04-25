@@ -102,33 +102,17 @@ retornaStringEmMaiuscula("oi")
 retornaStringEmMaiuscula("bAnAnA")
 
 // EXERCÍCIO 07
-function calculaIngressosEspetaculo(custo, valorIngresso) {
+*/
+function calculaIngressosEspetaculo(custo, valor) {
   // implemente sua lógica aqui
- //const custoTeatro = 3000
- //const valorDoIngresso = 100
- //const calculo = custoTeatro/valorDoIngresso
- 
-
- const custoTeatro2 = 5500
- const valorDoIngresso2 = 50
- 
- const segundoCalculo = custoTeatro2/valorDoIngresso2
- 
-
- const resultaDosGastos = `${calculo} ${segundoCalculo}`
- 
- 
-
-console.log(resultaDosGastos)
-
-return resultaDosGastos
-
-
-
+ const ingressoEspetaculo = custo/valor
+console.log(ingressoEspetaculo)
+return custo/valor
 }
 
-calculaIngressosEspetaculo()
-calculaIngressosEspetaculo()
+calculaIngressosEspetaculo(500, 100)
+
+//calculaIngressosEspetaculo()
 
 
 // EXERCÍCIO 08
