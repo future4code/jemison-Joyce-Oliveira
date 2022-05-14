@@ -29,16 +29,29 @@ function retornaArrayOrdenado(array) {
   
 }
 
-retornaArrayOrdenado()
+retornaArrayOrdenado() */
 
-// EXERCÍCIO 04
-function retornaNumerosPares(array) {
-const retornandoOrdenado = [3, 2, 1, 4, 7].filter()
-  const filtrandoPares = retornandoOrdenado.filter(-1)
-  return 
-  
+// EXERCÍCIO 04 
+
+function retornaNumerosPares(array) { 
+    
+    if (array % 2 == 0)
+  return array
 }
+
+const numerosPares = numeros.filter(retornaNumerosPares)
+console.log(numerosPares) 
 retornaNumerosPares()
+
+
+/*var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function buscarNumerosPares (value) {
+    if (value % 2 == 0) 
+    return value;
+}
+var numerosPares = numeros.filter(buscarNumerosPares);
+console.log(numerosPares);
+
 
 // EXERCÍCIO 05
 /*function retornaNumerosParesElevadosADois(array) {
