@@ -5,9 +5,9 @@
 
 // EXERCÍCIO 01
 /*function retornaTamanhoArray(array) {
-   let retornandoTamanho = [3, 2, 1, 4, 7]
-    console.log(retornandoTamanho.length)
-    return 
+    const tamanho = [3, 2, 1, 4, 7]
+    console.log(tamanho.length)
+    return tamanho
 }
 
 retornaTamanhoArray()
@@ -23,51 +23,59 @@ retornaArrayInvertido()
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  const retornandoOrdenado = [3, 2, 1, 4, 7].sort()
+  const retornandoOrdenado = [].sort()
   console.log(retornandoOrdenado)
   return 
   
 }
 
-retornaArrayOrdenado() */
+retornaArrayOrdenado() 
 
 // EXERCÍCIO 04 
 
 function retornaNumerosPares(array) { 
-    
-    if (array % 2 == 0)
-  return array
+const numerosPares = array => array % 2 === 0
+const pares = array.filter(par)
+return pares
 }
 
-const numerosPares = numeros.filter(retornaNumerosPares)
-console.log(numerosPares) 
-retornaNumerosPares()
+retornandoNumerosPares(array)
 
-
-/*var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-function buscarNumerosPares (value) {
-    if (value % 2 == 0) 
-    return value;
-}
-var numerosPares = numeros.filter(buscarNumerosPares);
-console.log(numerosPares);
 
 
 // EXERCÍCIO 05
-/*function retornaNumerosParesElevadosADois(array) {
- 
+function retornaNumerosParesElevadosADois(array) {
+ const pares - array.filter((value)) => {
+  const paresElevados = (value % 2 == 0, value *- value) 
+  return paresElevados
 }
+retornandoNumerosParesEleados(array)
+
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  array.sort((a,b) => a-b)
+  return array[array.lenght]
 }
 
 // EXERCÍCIO 07
-function retornaObjetoEntreDoisNumeros(num1, num2) {
+*/function retornaObjetoEntreDoisNumeros(num1, num2) {
+if (num1 > num2){
+  objeto1 - num1;
+  objeto2 - num2;
+} else { 
+  objeto1 - num2
+  objeto2 - num1
+  }
+  let calculo = objeto1 % objeto2 === 0;
+  
+  return calculo
 
 }
+retornaObjetoEntreDoisNumeros(num1, num2)
 
+
+/*
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
    
@@ -82,12 +90,18 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 function retornaSegundoMaiorESegundoMenor(array) {
   
 }
-
+*/
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
-}
+   let nomeFilme = filme.nome;
+   let anoFilme = filme.ano;
+   let diretorFilme = filme.diretor;
+   let atoresFilme = [filme.atores.join(',')];
 
+   return 'venha assistir ao filme ${nomeFilme}, de ${anoFilme}, dirigido por ${diretorFilme} e estreladopor ${atoresFilme}.'
+    
+}
+/*
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
    
