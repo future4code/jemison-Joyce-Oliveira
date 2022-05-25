@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Adicionar Produto</title>
+    <title>Adicionar Produto</title> 
 </head>
 <body>
     <header>
-        <p>
-            <h2>Tech World Gamer</h2>
-        </p>
+            <p>
+            <h2 class="nome-produto">Tech World Gamer</h2>
+            </p>
     </header>
     
     <nav>
@@ -21,7 +22,7 @@
     </nav>
 
     
-    <h2>Adicionar Produto</h2>
+    <h2 class="produto">Adicionar Produto</h2>
     <form action="">
             <label for="link-foto">Link para foto: </label>
             <input type="url" id="link-foto" name="link-foto">
@@ -41,9 +42,16 @@
             <input type="number" id="quantidade" name="quantidade"> 
             <br>
             <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-            <button type="submit">Adicionar</button>
+            <button class="botao" type="submit">Adicionar</button>
 
     </form>
+
+    <footer id="rodape-produto">
+        <p class="cor-rede-social">Siga-nos nas redes sociais!</p>
+        <img src="https://image.flaticon.com/icons/png/512/25/25305.png"/>
+        <img src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
+        <img src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
+    </footer>
 
 </body>
 </html>

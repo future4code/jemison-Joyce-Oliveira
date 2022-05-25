@@ -1,0 +1,110 @@
+p{
+    color: rgb(58, 28, 61) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(41, 110, 212); 
+}
+
+.cor-rede-social{
+    color: black;
+
+}
+
+.nome-site{
+    color: rgb(41, 110, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color:aliceblue;
+}
+
+.rodape{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a{
+    background-color: rgb(41, 110, 212);
+}
+
+
+
+.rodape-estoque{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem-cabecalho{
+    margin-top: 5mm;
+}
+
+.nome-estoque{
+    color: rgb(41, 110, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+#preco{
+    background-color: burlywood;
+    
+}
+
+#descricao{
+    background-color: brown;
+}
+
+#disponivel{
+    background-color: chartreuse;
+}
+
+#foto{
+    background-color: cornflowerblue;
+}
+
+body{
+    background-color:rgba(18, 73, 224, 0.103);
+}
+
+.nome-produto{
+    color: rgb(41, 110, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.control{
+color: rgb(185, 21, 62);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.produto{
+    color: rgba(8, 156, 45, 0.884);;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao{
+    background-color: rgba(8, 156, 45, 0.589);
+}   
+
+.nome-funcionarios{
+    color: rgb(41, 110, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.funcionarios{
+    color: rgb(98, 12, 148);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#rodape-funcionarios{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8.7cm;
+}
+
+#rodape-produto{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8.3cm;
+}
