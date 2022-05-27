@@ -9,9 +9,22 @@ nav{
 
 body{
     text-align: center;
-    
+    background-color:rgba(255, 228, 196, 0.507) ;
 }
 
 .sobre{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ensino{
+    margin-top: 3cm;
+}
+
+.cor-ensino{
+    color: rgb(197, 153, 95);
+}
+
+.galeria{
+    margin-top: 3cm;
+    color: rgb(197, 153, 95);
 }
