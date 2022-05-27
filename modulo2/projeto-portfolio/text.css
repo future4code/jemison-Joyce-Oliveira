@@ -1,0 +1,17 @@
+.inicio{
+    color: rgb(197, 153, 95);
+}
+
+nav{
+    background-color: rgba(68, 101, 161, 0.945);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    text-align: center;
+    
+}
+
+.sobre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
