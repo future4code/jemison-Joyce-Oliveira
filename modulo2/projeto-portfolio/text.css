@@ -9,7 +9,7 @@ nav{
 
 body{
     text-align: center;
-    background-color:rgba(255, 228, 196, 0.507) ;
+    
 }
 
 .sobre{
@@ -27,4 +27,8 @@ body{
 .galeria{
     margin-top: 3cm;
     color: rgb(197, 153, 95);
+}
+
+.cabecalho{
+    margin: 5cm, 2cm;
 }
