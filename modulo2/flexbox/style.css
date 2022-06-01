@@ -1,0 +1,71 @@
+#container{
+    display: flex;
+    background: mediumvioletred;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+#home{
+    margin-right: 30cm;
+}
+
+#cake{
+    margin-right: 5mm;
+    height: 25px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bolos{
+    height: 180px;
+    margin-left: 2px;
+    border: solid rgba(169, 169, 169, 0.514);
+    
+    
+}
+
+.casa{
+    height: 15px;
+    margin-left: 1.5cm;
+}
+
+
+.rodape{
+    background: mediumvioletred;
+    height: 45px;
+}
+
+
+.menu{
+    height: 300px;
+    width: 20%;
+    background: #f2d0e0;
+}
+
+#div-pai{
+    display: flex;
+    flex-direction: row;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+#centro{
+    display:flex;
+    flex-direction:column;
+    color: red;
+    justify-content: center;
+    margin-top: 3cm;
+    margin-left: -4cm;
+
+}
