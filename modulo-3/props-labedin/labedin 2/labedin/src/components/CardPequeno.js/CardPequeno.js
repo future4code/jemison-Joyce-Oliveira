@@ -4,7 +4,7 @@ import './CardPequeno.css'
 function CardPequeno(props) {
     return (
         <div className="smallcard-container">
-            <img src={ props.imagem } />
+            <img className='card' src={ props.imagem } />
             <div>
                 <h4>{ props.nome }</h4>
                 <p>{ props.descricao }</p>

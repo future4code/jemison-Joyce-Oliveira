@@ -24,15 +24,15 @@ function App() {
       <div className="card">
       <div className="card-container">
         <CardPequeno
-          
-          nome="E-mail" 
+          imagem="https://png.pngtree.com/png-clipart/20190520/original/pngtree-email-symbol-icon-png-image_3569790.jpg"
+          nome="E-mail:" 
           descricao="joycerebeca4@gmail.com" 
         />
         
 
         <CardPequeno
-          
-          nome="Endereço" 
+          imagem="https://png.pngtree.com/png-clipart/20200224/original/pngtree-address-icon-isolated-on-abstract-background-png-image_5218959.jpg"
+          nome="Endereço:" 
           descricao="Ipatinga/MG" 
           />
           </div>
@@ -42,13 +42,13 @@ function App() {
         <CardGrande 
           imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
           nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
+          descricao="Estudante Web Full Stack" 
         />
         
         <CardGrande 
-          imagem="https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-768x768.png" 
-          nome="NASA" 
-          descricao="Apontando defeitos." 
+          imagem="https://cf.shopee.com.br/file/a1f3ba621a6339217a085d18303fc3a4_tn" 
+          nome="Psicologia" 
+          descricao="Ensino Superior em Psicologia" 
         />
       </div>
 

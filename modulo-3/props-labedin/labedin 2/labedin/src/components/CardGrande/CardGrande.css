@@ -13,6 +13,12 @@
     border-radius: 50%;
 }
 
+.ssg{
+    width: 150px;
+    margin-right: 100px;
+    border-radius: 7%; 
+}
+
 .bigcard-container h4 {
     margin-bottom: 15px;
 }
@@ -23,11 +29,18 @@
     justify-items: flex-start;
 }
 
-.smallcard-container{
-    display: block;  
+
+.smallcard-container {
+    display: flex;
     align-items: center;
     border: 1px solid black;
-    padding: 0px 10px;
-    height: 80px;
+    padding: 10px;
+    height: 100px;
+}
+
+.smallcard-container > img {
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 20%;
 }
 
