@@ -1,0 +1,120 @@
+.inicio{
+    color: rgb(197, 153, 95);
+}
+
+nav{
+    background-color: rgba(68, 101, 161, 0.945);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.corpo-inicio{
+    text-align: center;
+    
+}
+
+.quem{
+    font-family:'Times New Roman', Times, serif
+}
+
+.sobre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.eu{
+    background-color: rgba(255, 127, 80, 0.295);
+}
+
+.ensino{
+    margin-left: 1.2cm;
+    margin-top: 3cm;
+    
+}
+
+.cor-ensino{
+    color: rgb(197, 153, 95);
+}
+
+.cor-exp{
+    color: rgb(197, 153, 95);
+}
+
+
+.galeria{
+    margin-top: 3cm;
+    margin-bottom: 2cm;
+    text-align: center;
+    color: rgb(197, 153, 95);
+}
+
+.cor-habilidades{
+    color: rgb(197, 153, 95);
+}
+
+.habilidades{
+    margin-left: 24.9cm;
+    margin-top: -7.7cm;
+}
+
+.experiencia{ 
+    margin-left: 13cm;
+    margin-top: -7.7cm;
+
+}
+
+.editar{
+    margin-top: 5cm;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.js{
+    margin-top: 10cm;
+}
+
+.imagem1{
+    margin-left: 1cm;
+}
+
+.imagem2{
+    margin-left: 5cm;
+}
+
+.imagem3{
+    margin-left: 5cm;
+}
+
+.posi{
+    background-color: rgba(255, 127, 80, 0.295);
+    margin-left: 1cm;
+}
+
+.posicao{
+    background-color: rgba(255, 127, 80, 0.295);
+    margin-left: 6cm;
+}
+
+.posicao-2{
+    background-color: rgba(255, 127, 80, 0.295);
+    margin-left: 6cm;
+}
+
+.contato{ 
+    color: rgb(197, 153, 95);
+}
+
+.final{
+    margin-top: 3cm;
+    background-color: rgba(68, 101, 161, 0.945);
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(83, 23, 12, 0.637);
+}
+
+button{
+    background-color: rgba(255, 127, 80, 0.295);
+    color:black;
+}
+
+body{
+    background-color: rgba(255, 228, 196, 0.308);
+}
+
